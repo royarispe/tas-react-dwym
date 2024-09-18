@@ -1,0 +1,32 @@
+.card {
+    background-color: #282c34;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 16px;
+    margin: 16px;
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.card-content {
+    font-size: 1em;
+    color: #fff;
+}
+
+.card-footer {
+    margin-top: 16px;
+    font-size: 0.9em;
+    color: #fff;
+    text-align: center;
+}
